@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+header{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 30px 80px 0 50px;
+    cursor: pointer;
+    color:#989D9C
+    
+  
+}
+
+.login {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    border: none;
+    background: #665AE1;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    width: 513px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    width: 448px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color:#515151;
+}
+
+p{
+   width: 515px;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px; 
+   color: #848484;
+}
+
+.explore{
+    width: 239px;
+    height: 64px;
+    background:#ADFF00 ;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    
+}
+
+.pet-logo{
+    width: 568px;
+    height: 500px;
+    margin: 150px 40px 0 60px;
+
+}
+
+main{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 730px){
+  .login{
+    display: none;
+  }
+
+    a{
+        display: none;
+    }
+
+    p{
+        display: none;
+       
+    }
+
+    .explore{
+      margin-left: 200px;
+    }
+
+    .pet-logo{
+       margin-block: 50px;
+    }
+
+    h1{
+        margin-left: 85px;
+    }
+    h2{
+        margin-left: 110px;
+    }
+}
